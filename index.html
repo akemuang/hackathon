@@ -11,6 +11,7 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
+  <!-- HEADER -->
   <header class="header">
     <div class="container header__inner">
       <div class="brand">
@@ -30,7 +31,10 @@
           <a href="#rounds">Rounds & Criteria</a>
           <a href="#presentation">Final Presentation</a>
           <a href="#contribute">Contribute</a>
-          <a class="btn btn--sm" href="#register">Register</a>
+          <a class="btn btn--sm"
+             href="https://forms.gle/7j6zdgnwDvhJdWog6"
+             target="_blank"
+             rel="noopener">Register</a>
         </div>
       </nav>
     </div>
@@ -50,18 +54,26 @@
           </p>
 
           <div class="meta">
-            <div class="pill"><span class="k">Participants</span><span class="v">Higher education and high school (Thailand & international)</span></div>
-            <div class="pill"><span class="k">Core Tracks</span><span class="v">NLP · Data Visualization · Object Detection</span></div>
+            <div class="pill">
+              <span class="k">Participants</span>
+              <span class="v">Higher education and high school (Thailand & international)</span>
+            </div>
+            <div class="pill">
+              <span class="k">Core Tracks</span>
+              <span class="v">NLP · Data Visualization · Object Detection</span>
+            </div>
           </div>
 
           <div class="actions">
-            <a class="btn" href="#register">Register Now!</a>
+            <a class="btn"
+               href="https://forms.gle/7j6zdgnwDvhJdWog6"
+               target="_blank"
+               rel="noopener">Register Now!</a>
             <a class="btn btn--ghost" href="#rounds">See Evaluation Rounds</a>
           </div>
-
-          
         </div>
 
+        <!-- QUICK DETAILS -->
         <aside class="card" aria-label="Quick Summary">
           <h2>Quick Details</h2>
           <ul class="kv">
@@ -71,10 +83,6 @@
             <li><span>Time</span><span>9.00 AM – 6.00 PM</span></li>
             <li><span>Venue</span><span>1-301</span></li>
           </ul>
-
-          <div class="divider"></div>
-
-          
         </aside>
       </div>
     </section>
@@ -105,7 +113,6 @@
               Modern organizations generate large volumes of text (messages, reports, reviews, emails, policies).
               NLP enables systems to analyze and generate language for actionable insight and intelligent interaction.
             </p>
-            <h4>Typical directions</h4>
             <ul>
               <li>Text classification and sentiment analysis</li>
               <li>Chatbots and conversational systems</li>
@@ -120,13 +127,11 @@
               Visualization helps organizations communicate insight clearly, support analysis, and make evidence-based
               decisions through well-designed visuals.
             </p>
-            <h4>Typical directions</h4>
             <ul>
               <li>Exploratory and explanatory visualization</li>
               <li>Data storytelling and narrative visualization</li>
-              <li>Interactive/static analytics (dashboards, infographics, maps)</li>
-              <li>Complex/high-dimensional/temporal data representation</li>
-              <li>Decision support for planning, operations, policy, or scientific insight</li>
+              <li>Interactive/static analytics</li>
+              <li>Complex or temporal data representation</li>
             </ul>
           </article>
 
@@ -134,14 +139,13 @@
             <h3>3) Object Detection</h3>
             <p>
               Object detection identifies, locates, and classifies objects in images/video for domains such as security,
-              safety, healthcare, retail, logistics, and smart cities.
+              healthcare, retail, logistics, and smart cities.
             </p>
-            <h4>Typical directions</h4>
             <ul>
-              <li>Image/video-based object detection</li>
-              <li>Real-time detection systems</li>
-              <li>Surveillance, safety, healthcare, or smart city applications</li>
-              <li>Integration with IoT or automated decision systems</li>
+              <li>Image/video-based detection</li>
+              <li>Real-time systems</li>
+              <li>Smart city and safety applications</li>
+              <li>IoT and automation integration</li>
             </ul>
           </article>
         </div>
@@ -152,111 +156,22 @@
     <section class="section" id="outcomes">
       <div class="container">
         <h2>Expected Outcomes</h2>
-        <p class="muted">
-          AIIC 2026 emphasizes working prototypes that can integrate multiple tracks (e.g., NLP + Visualization; Object Detection + Visualization).
-        </p>
-
         <div class="grid2">
           <div class="panel">
-            <h3>Prototype-based, end-to-end functionality</h3>
-            <p>
-              Projects should demonstrate an end-to-end workflow (problem → data → AI processing → interaction → results),
-              and can combine multiple tracks when integration strengthens applicability.
-            </p>
+            <h3>End-to-end functional prototype</h3>
+            <p>Demonstrate a complete workflow from data to AI processing to user-facing output.</p>
           </div>
-
           <div class="panel">
-            <h3>Organizational value and practical use cases</h3>
-            <p>
-              Each prototype should address real enterprise challenges (service quality, operational efficiency, decision support,
-              safety, automation) with a clear value proposition.
-            </p>
+            <h3>Organizational value</h3>
+            <p>Clear benefits to enterprises such as efficiency, automation, decision support, or safety.</p>
           </div>
-
           <div class="panel">
-            <h3>Evidence-based results with appropriate metrics</h3>
-            <p>
-              Report measurable outcomes (e.g., accuracy/precision/recall/F1 for models; latency/FPS for detection; usability and interpretability for visualization;
-              business indicators such as time saved or reduced errors).
-            </p>
+            <h3>Measurable results</h3>
+            <p>Evidence-based metrics including model performance or operational improvements.</p>
           </div>
-
           <div class="panel">
-            <h3>Implementation readiness and responsible AI</h3>
-            <p>
-              Include system design (data flow, pipeline, interfaces) and demonstrate readiness for deployment, with privacy, security,
-              bias awareness, transparency, and ethical constraints—especially for sensitive or vision-based data.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ROUNDS -->
-    <section class="section section--alt" id="rounds">
-      <div class="container">
-        <h2>Evaluation Rounds</h2>
-
-        <div class="timeline">
-          <div class="timeline__item">
-            <div class="dot" aria-hidden="true"></div>
-            <div>
-              <h3>Round 1: Walkaround Prototype Evaluation (Top 10)</h3>
-              <p class="muted">
-                Purpose: identify teams with strong execution, development efficiency, prototype readiness, and clear progress toward a practical solution.
-              </p>
-
-              <h4>Round 1 assessment criteria</h4>
-              <ul>
-                <li><strong>Project Execution & Team Management:</strong> roles, workflow, iteration, problem-solving, collaboration</li>
-                <li><strong>Prototype Progress & Development Efficiency:</strong> rapid progress, demonstrated pipeline (data → model/logic → output)</li>
-                <li><strong>Technical Implementation Quality:</strong> correct use of chosen track(s), stability, structure, reproducibility</li>
-                <li><strong>Clarity of Problem Definition & Relevance:</strong> clear enterprise context, users, pain points, expected benefit</li>
-                <li><strong>Testing Evidence & Measurable Results:</strong> basic metrics/test cases; proof beyond mock-up</li>
-              </ul>
-
-              <p class="muted">
-                Outcome: Top 10 teams advance. Tie-breaker: Prototype Progress & Development Efficiency, then Technical Implementation Quality.
-              </p>
-            </div>
-          </div>
-
-          <div class="timeline__item">
-            <div class="dot" aria-hidden="true"></div>
-            <div id="presentation">
-              <h3>Round 2: Final Presentation & Prototype Validation (Top 5 Winners)</h3>
-              <p class="muted">
-                Purpose: select the most outstanding solutions demonstrating technical completeness, feasibility for real deployment,
-                and strong potential to improve the stated organizational problem.
-              </p>
-
-              <h4>Finalist format</h4>
-              <ul>
-                <li>Live demo of the prototype</li>
-                <li>Structured presentation: problem & stakeholders; data & methodology; architecture/workflow; results/metrics; deployment plan & improvements; risks/ethics/limitations</li>
-              </ul>
-
-              <h4>Recommended time allocation</h4>
-              <ul>
-                <li>10 minutes presentation + demo</li>
-                <li>5 minutes Q&amp;A</li>
-              </ul>
-
-              <h4>Round 2 assessment criteria</h4>
-              <ul>
-                <li><strong>Solution Impact & Business/Organizational Value</strong></li>
-                <li><strong>Technical Completeness & System Reliability</strong> (including integration quality if multi-track)</li>
-                <li><strong>Feasibility & Scalability</strong> (cost, data availability, constraints, adoption plan)</li>
-                <li><strong>Evaluation Quality & Evidence-Based Results</strong></li>
-                <li><strong>Responsible AI, Ethics, Privacy & Security</strong></li>
-                <li><strong>Communication & Demonstration Quality</strong></li>
-              </ul>
-
-              <p class="muted">
-                Finalists must demonstrate: working prototype (live/runnable), clear problem & target context, at least one measurable result,
-                and ethical/privacy considerations (especially for Object Detection).
-              </p>
-            </div>
+            <h3>Responsible AI readiness</h3>
+            <p>Considerations of privacy, ethics, transparency, and deployment feasibility.</p>
           </div>
         </div>
       </div>
@@ -267,10 +182,11 @@
       <div class="container register">
         <div>
           <h2>Registration</h2>
-          
-
           <div class="actions">
-            <a class="btn" href="#" target="_blank" rel="noopener">Open Registration Form</a>
+            <a class="btn"
+               href="https://forms.gle/7j6zdgnwDvhJdWog6"
+               target="_blank"
+               rel="noopener">Open Registration Form</a>
             <a class="btn btn--ghost" href="#top">Back to top</a>
           </div>
         </div>
@@ -278,18 +194,17 @@
         <aside class="card">
           <h3>What to prepare</h3>
           <ul class="kv">
-            <li><span>Problem</span><span>Real organizational/enterprise use case</span></li>
-            <li><span>Approach</span><span>NLP, Visualization, Vision (or integrated)</span></li>
-            <li><span>Evidence</span><span>At least one metric or test result</span></li>
-            <li><span>Ethics</span><span>Privacy/security & responsible AI notes</span></li>
+            <li><span>Problem</span><span>Real organizational use case</span></li>
+            <li><span>Approach</span><span>NLP, Visualization, Vision</span></li>
+            <li><span>Evidence</span><span>At least one metric</span></li>
+            <li><span>Ethics</span><span>Privacy & responsible AI</span></li>
           </ul>
         </aside>
       </div>
     </section>
-
-    
   </main>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer__inner">
       <p>© AIIC by ICT (RSUIP) 2026. All rights reserved.</p>
