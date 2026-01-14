@@ -106,6 +106,32 @@
 
 /* What to prepare*/
 
+/* Assessment Criteria */
+#assessment .timeline__item {
+  background: #000000;                
+  border-radius: 24px;
+  border: 1px solid rgba(120, 180, 255, 0.45);
+
+  padding: 28px;
+  margin: 16px 0;
+
+  box-shadow:
+    0 0 6px rgba(120, 180, 255, 0.45),
+    0 0 16px rgba(120, 180, 255, 0.28),
+    inset 0 0 6px rgba(120, 180, 255, 0.12);
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+#assessment .timeline__item:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 0 10px rgba(120, 180, 255, 0.6),
+    0 0 24px rgba(120, 180, 255, 0.35),
+    inset 0 0 8px rgba(120, 180, 255, 0.18);
+}
+
+/* Assessment Criteria */
 
 
 *{ box-sizing:border-box; }
